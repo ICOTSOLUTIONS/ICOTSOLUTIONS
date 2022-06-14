@@ -95,9 +95,9 @@
         </div>
         <div class="social-media">
             <ul class="social-list">
-                <li><a href="https://www.facebook.com/">Facebook</a></li>
-                <li><a href="https://www.instagram.com/">instagram</a></li>
-                <li><a href="https://www.linkedin.com/">Linked in</a></li>
+                <li><a href="https://www.facebook.com/icotsolutions/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/icotsolutions/?hl=en" target="_blank">instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/icot-solutions-a5642a237/" target="_blank">Linked in</a></li>
             </ul>
         </div>
     </section>

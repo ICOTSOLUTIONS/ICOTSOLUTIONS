@@ -4,7 +4,7 @@
             <div class="col-md-3 col-lg-3 col-xl-3">
                 <div class="footer-widget">
                     <div class="footer-logo">
-                        <a href="index-2.html"><img src="assets/img/logo.png" alt=""></a>
+                        <a href="#"><img src="assets/img/logo/icotsolutions3.png" alt=""></a>
                     </div>
                     <address>
                         <h4>Office</h4>
@@ -52,8 +52,8 @@
                             <i class="fas fa-phone-alt"></i>
                         </div>
                         <div class="phone">
-                            <a href="tel:05661111985">+880 566 1111 985</a>
-                            <a href="tel:06571111576">+880 657 1111 576</a>
+                            <a href="tel:03360394622">+92 336 0394 622</a>
+                            <!-- <a href="tel:06571111576">+880 657 1111 576</a> -->
                         </div>
                     </div>
                     <div class="office-mail">
@@ -61,17 +61,17 @@
                             <i class="far fa-envelope"></i>
                         </div>
                         <div class="email">
-                            <a href="tell:info@example.com"><span class="__cf_email__"
-                                    data-cfemail="1e777078715e7b667f736e727b307d7173">[email&#160;protected]</span></a>
-                            <a href="tell:info@support.com"><span class="__cf_email__"
-                                    data-cfemail="4b22252d240b383e3b3b24393f65282426">[email&#160;protected]</span></a>
+                            <a href="tell:info@icotsolutions.com"><span class="__cf_email__"
+                                    data-cfemail="1e777078715e7b667f736e727b307d7173">info@icotsolutions.com</span></a>
+                            <!-- <a href="tell:info@support.com"><span class="__cf_email__"
+                                    data-cfemail="4b22252d240b383e3b3b24393f65282426">info@icotsolutions.com</span></a> -->
                         </div>
                     </div>
                     <div class="address">
                         <div class="address-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <p>168/170, Avenue 01, Mirpur DOHS, Bangladesh</p>
+                        <p>Pakistan ,Karachi Liaquatabad.</p>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,8 @@
             <div class="row align-items-center">
                 <div class="col-12 col-md-4 col-lg-4 col-xl-5">
                     <div class="copy-txt">
-                        <span>Copyright 2022 <b>Finibus</b> | Design By <a href="#">Egens Lab</a></span>
+                        <span><b> ICOTSOLUTIONS</b></span>
+                        <!-- <span>Copyright 2022 <b>Finibus</b> | Design By <a href="#">Egens Lab</a></span> -->
                     </div>
                 </div>
                 <div class="col-12 col-md-8 col-lg-8 col-xl-7">
