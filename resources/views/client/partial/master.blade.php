@@ -34,7 +34,7 @@
 </head>
 
 <body class="dark">
-    div class="cursor"></div>
+    <div class="cursor"></div>
     <div class="cursor2"></div>
 
 
