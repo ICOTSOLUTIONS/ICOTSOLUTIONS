@@ -21,3 +21,4 @@ Route::view('/', 'client.pages/index');
 Route::view('/about', 'client.pages/about');
 Route::view('/service', 'client.pages/service');
 Route::view('/contact', 'client.pages/contact');
+Route::view('/portfolio', 'client.pages/portfolio');

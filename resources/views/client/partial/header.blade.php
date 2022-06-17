@@ -34,7 +34,7 @@
                             </ul>
                         </li>
                         <li class="has-child">
-                            <a href="project.html">Portfolio</a>
+                            <a href="{{url('/portfolio')}}">Portfolio</a>
                             {{-- <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
                                 <li><a href="project.html">Project</a></li>

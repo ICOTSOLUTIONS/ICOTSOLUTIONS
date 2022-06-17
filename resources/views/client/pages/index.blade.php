@@ -123,7 +123,7 @@
                                     <i><img src="{{ asset('assets/img/icons/service-icon-1.png') }}" alt=""></i>
                                 </div>
                                 <div class="service-content">
-                                    <h4>web design</h4>
+                                    <h4>web designing</h4>
                                     <p>Grow your digital presence with our human-centered, compelling, and future-proof approach to web design. 
 
                                     </p>
@@ -139,8 +139,9 @@
                                     <i><img src="{{ asset('assets/img/icons/service-icon-2.png') }}" alt=""></i>
                                 </div>
                                 <div class="service-content">
-                                    <h4>App design</h4>
-                                    <p>Maecenas ut est in ante imperdiet laoreet eu quis elit Phasellus Door</p>
+                                    <h4>Web Development</h4>
+                                    <p>Your website creates a digital experience for your brand, making it an essential component of your marketing and business strategy.</p>
+                                        
                                     <a href="service-details.html">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
                                 </div>
@@ -150,11 +151,11 @@
                             <div class="single-service">
                                 <span class="count">03</span>
                                 <div class="service-icon">
-                                    <i><img src="{{ asset('assets/img/icons/service-icon-2.png') }}" alt=""></i>
+                                    <i><img src="{{ asset('assets/img/icons/service-icon-3.png') }}" alt=""></i>
                                 </div>
                                 <div class="service-content">
-                                    <h4>Digital Marketing </h4>
-                                    <p>At ICOT SOLUTIONS, we believe your marketing strategy should create unique and engaging experiences that help connect your brand to people to build customer loyalty and drive revenue for your business.</p>
+                                    <h4>App Development</h4>
+                                    <p>Maecenas ut est in ante imperdiet laoreet eu quis elit Phasellus Door.</p>
                                     <a href="service-details.html">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
                                 </div>
@@ -164,11 +165,11 @@
                             <div class="single-service">
                                 <span class="count">04</span>
                                 <div class="service-icon">
-                                    <i><img src="{{ asset('assets/img/icons/service-icon-3.png') }}" alt=""></i>
+                                    <i><img src="{{ asset('assets/img/icons/service-icon-2.png') }}" alt=""></i>
                                 </div>
                                 <div class="service-content">
-                                    <h4>Website Development Solutions</h4>
-                                    <p>Your website creates a digital experience for your brand, making it an essential component of your marketing and business strategy.</p>
+                                    <h4>Digital Marketing </h4>
+                                    <p>At ICOT SOLUTIONS, we believe your marketing strategy should create unique and engaging experiences that help connect your brand to people to build customer loyalty and drive revenue for your business.</p>
                                     <a href="service-details.html">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
                                 </div>
