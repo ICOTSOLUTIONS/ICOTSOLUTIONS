@@ -31,8 +31,8 @@
                         <div class="icon">
                             <i class="bi bi-geo-alt"></i>
                         </div>
-                        <h4>Location</h4>
-                        <p>168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka, Bangladesh</p>
+                        <h4 class="text-white">Location</h4>
+                        <p class="text-white">Pakistan ,Karachi Liaquatabad.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-4">
@@ -40,9 +40,9 @@
                         <div class="icon">
                             <i class="bi bi-telephone"></i>
                         </div>
-                        <h4>Phone</h4>
-                        <a href="tel:0123456789102">+012-3456-789102</a>
-                        <a href="tel:013456789102">+012-3456-789102</a>
+                        <h4 class="text-white">Phone</h4>
+                        <a href="tel:03360394622" class="text-white">+92 336 0394 622</a>
+                        {{-- <a href="tel:013456789102" class="text-white">+012-3456-789102</a> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-4">
@@ -50,14 +50,14 @@
                         <div class="icon">
                             <i class="bi bi-envelope"></i>
                         </div>
-                        <h4>Email</h4>
+                        <h4 class="text-white">Email</h4>
                         <a href="https://demo.egenslab.com/cdn-cgi/l/email-protection#f891969e97b89d80999588949dd69b9795"><span
-                                class="__cf_email__"
-                                data-cfemail="056c6b636a45607d64687569602b666a68">[email&#160;protected]</span></a>
-                        <a
+                                class="__cf_email__ text-white"
+                                data-cfemail="056c6b636a45607d64687569602b666a68">icotsolutions@gmail.com</span></a>
+                        {{-- <a
                             href="https://demo.egenslab.com/cdn-cgi/l/email-protection#92e1e7e2e2fde0e6d2f7eaf3ffe2fef7bcf1fdff"><span
                                 class="__cf_email__"
-                                data-cfemail="3d4e484d4d524f497d58455c504d5158135e5250">[email&#160;protected]</span></a>
+                                data-cfemail="3d4e484d4d524f497d58455c504d5158135e5250" class="text-white">[email&#160;protected]</span></a> --}}
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
     </section>
 
 
-    <section class="lets-talk sec-pad">
+    {{-- <section class="lets-talk sec-pad">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-9 col-lg-8 col-xl-7">
@@ -120,5 +120,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

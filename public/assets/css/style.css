@@ -38,6 +38,15 @@ img {
     max-width: 100%
 }
 
+.client {
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 a,
 ul,
 ol {
@@ -54,6 +63,15 @@ p {
 a,
 a:hover {
     text-decoration: none
+}
+
+.h {
+    font-size: 45px;
+    /* font-weight: 700; */
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 input,
@@ -602,18 +620,21 @@ only screen and (min-width:768px) and (max-width:991px),
     z-index: 999;
     cursor: pointer
 }
+
 .bi-chevron-down:hover {
     /* transform: scale(1.5) */
     /* transform: skewY(-500deg) */
     color: #d90a2c
-    /* co */
+        /* co */
 }
-.bi-chevron-down:hover{
+
+.bi-chevron-down:hover {
     transform: scale(1.5)
-    /* transform: skewY(-500deg) */
-    /* color: #d90a2c */
-    /* co */
+        /* transform: skewY(-500deg) */
+        /* color: #d90a2c */
+        /* co */
 }
+
 .main-nav ul li ul.sub-menu {
     width: 250px;
     position: absolute;
@@ -963,6 +984,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     color: #fff;
     margin-bottom: 20px
 }
+
 .hero-content h3 {
     font-weight: 800;
     font-size: 20px;
@@ -6363,4 +6385,62 @@ only screen and (min-width:1200px) and (max-width:1399px) {
         bottom: 50%;
         margin-bottom: -1px
     }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.img {
+    border-top-right-radius: 100px;
+}
+
+.imgB {
+    border-bottom-left-radius: 100px;
+}
+
+.pa {
+    padding: 0px 25px;
+}
+
+.pat {
+    padding-right: 25px;
+}
+
+.imgBR {
+    border-bottom-right-radius: 100px;
+}
+
+.imgTL {
+    border-top-left-radius: 100px;
+}
+
+.font {
+    font-size: 70px;
+}
+
+.webImage {
+    opacity: 0;
+}
+
+.webImage .animated {
+    opacity: 1;
+}
+.red{
+    color: #d90a2c;
 }

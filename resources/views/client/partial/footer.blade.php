@@ -22,12 +22,12 @@
                 <div class="footer-widget">
                     <h4>Our Services</h4>
                     <ul class="footer-menu">
-                        <li><a href="service-details.html">Strategy & Research</a></li>
-                        <li><a href="service-details.html">Web Development</a></li>
-                        <li><a href="service-details.html">Web Solution</a></li>
-                        <li><a href="service-details.html">Digital Merketing</a></li>
-                        <li><a href="service-details.html">App Design</a></li>
-                        <li><a href="service-details.html">App Development</a></li>
+                        <li><a href="{{url('/services')}}">web designing</a></li>
+                        <li><a href="{{url('/services')}}">Web Development</a></li>
+                        <li><a href="{{url('/services')}}">App Development</a></li>
+                        <li><a href="{{url('/services')}}">Digital Merketing</a></li>
+                        <li><a href="{{url('/services')}}">Cohesive Branding Solutions</a></li>
+                        <li><a href="{{url('/services')}}">Graphic Designing </a></li>
                     </ul>
                 </div>
             </div>
@@ -35,12 +35,13 @@
                 <div class="footer-widget">
                     <h4>Company</h4>
                     <ul class="footer-menu">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="project.html">Project</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
+                        <li><a href="{{url('/about')}}">About Us</a></li>
+                        <li><a href="{{url('/service')}}">Services</a></li>
+                        <li><a href="{{url('/portfolio')}}">Portfolio</a></li>
+                        {{-- <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Career</a></li>
-                        <li><a href="services.html">Pricing Plan</a></li>
+                        <li><a href="services.html">Pricing Plan</a></li> --}}
                     </ul>
                 </div>
             </div>
@@ -61,8 +62,8 @@
                             <i class="far fa-envelope"></i>
                         </div>
                         <div class="email">
-                            <a href="tell:info@icotsolutions.com"><span class="__cf_email__"
-                                    data-cfemail="1e777078715e7b667f736e727b307d7173">info@icotsolutions.com</span></a>
+                            <a href="mailto:icotsolutions@gmail.com" target="_blank"><span class="__cf_email__"
+                                    data-cfemail="1e777078715e7b667f736e727b307d7173">icotsolutions@gmail.com</span></a>
                             <!-- <a href="tell:info@support.com"><span class="__cf_email__"
                                     data-cfemail="4b22252d240b383e3b3b24393f65282426">info@icotsolutions.com</span></a> -->
                         </div>

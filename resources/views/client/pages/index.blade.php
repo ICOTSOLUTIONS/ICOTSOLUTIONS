@@ -103,18 +103,18 @@
     </section>
 
     <section class="service-area sec-pad">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="row">
                 <div class="col-md-12 col-lg-4 col-xl-4">
                     <div class="title">
                         <span>what we do</span>
                         <h2>we work performed for client happy.</h2>
                         <div class="cmn-btn">
-                            <a href="services.html">view all services</a>
+                            <a href="{{url('/services')}}">view all services</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-8 col-xl-8">
+                <div class="col-md-12 col-lg-8 col-xl-8" >
                     <div class="row g-4">
                         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
                             <div class="single-service">
@@ -124,11 +124,10 @@
                                 </div>
                                 <div class="service-content">
                                     <h4>web designing</h4>
-                                    <p>Grow your digital presence with our human-centered, compelling, and future-proof approach to web design. 
+                                    <p>Grow your digital presence with our human-centered, compelling, and future-proof
+                                        approach to web design.
 
                                     </p>
-                                    <a href="service-details.html">read more<i><img
-                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
                                 </div>
                             </div>
                         </div>
@@ -140,10 +139,12 @@
                                 </div>
                                 <div class="service-content">
                                     <h4>Web Development</h4>
-                                    <p>Your website creates a digital experience for your brand, making it an essential component of your marketing and business strategy.</p>
-                                        
-                                    <a href="service-details.html">read more<i><img
-                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
+                                    <p>Your website creates a digital experience for your brand, making it an essential
+                                        component of your marketing and business strategy.</p>
+
+                                    <a href="{{url('/services')}}">read more<i><img
+                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}"
+                                                alt=""></i></a>
                                 </div>
                             </div>
                         </div>
@@ -154,10 +155,11 @@
                                     <i><img src="{{ asset('assets/img/icons/service-icon-3.png') }}" alt=""></i>
                                 </div>
                                 <div class="service-content">
-                                    <h4>App Development</h4>
-                                    <p>Maecenas ut est in ante imperdiet laoreet eu quis elit Phasellus Door.</p>
-                                    <a href="service-details.html">read more<i><img
-                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
+                                    <h4>React Native App Development</h4>
+                                    <p>ICOTS uses this conspicuous Hybrid Mobile Application Framework to equip the app with vigorous and quick performance.Hybrid app development is one way for companies to save money and time.</p>
+                                    <a href="{{url('/services')}}">read more<i><img
+                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}"
+                                                alt=""></i></a>
                                 </div>
                             </div>
                         </div>
@@ -165,13 +167,17 @@
                             <div class="single-service">
                                 <span class="count">04</span>
                                 <div class="service-icon">
-                                    <i><img src="{{ asset('assets/img/icons/service-icon-2.png') }}" alt=""></i>
+                                    <i><img src="{{ asset('assets/img/icons/service-icon-2.png') }}"
+                                            alt=""></i>
                                 </div>
                                 <div class="service-content">
                                     <h4>Digital Marketing </h4>
-                                    <p>At ICOT SOLUTIONS, we believe your marketing strategy should create unique and engaging experiences that help connect your brand to people to build customer loyalty and drive revenue for your business.</p>
-                                    <a href="service-details.html">read more<i><img
-                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
+                                    <p>At ICOT SOLUTIONS, we believe your marketing strategy should create unique and
+                                        engaging experiences that help connect your brand to people to build customer
+                                        loyalty and drive revenue for your business.</p>
+                                    <a href="{{url('/services')}}">read more<i><img
+                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}"
+                                                alt=""></i></a>
                                 </div>
                             </div>
                         </div>
@@ -179,13 +185,18 @@
                             <div class="single-service">
                                 <span class="count">05</span>
                                 <div class="service-icon">
-                                    <i><img src="{{ asset('assets/img/icons/service-icon-4.png') }}" alt=""></i>
+                                    <i><img src="{{ asset('assets/img/icons/service-icon-4.png') }}"
+                                            alt=""></i>
                                 </div>
                                 <div class="service-content">
-                                    <h4>Cohesive Branding Solutions </h4>
-                                    <p>Your brand is more than just your business logo design at ICOT SOLUTIONS. Our branding strategy includes an initial brand audit to a full-scale branding identity creating a cohesive story for your business to customers and prospects across all channels.</p>
-                                    <a href="service-details.html">read more<i><img
-                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
+                                    <h4>Cohesive Branding Solutions</h4>
+                                    <p>Your brand is more than just your business logo design at ICOT SOLUTIONS. Our
+                                        branding strategy includes an initial brand audit to a full-scale branding identity
+                                        creating a cohesive story for your business to customers and prospects across all
+                                        channels.</p>
+                                    <a href="{{url('/services')}}">read more<i><img
+                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}"
+                                                alt=""></i></a>
                                 </div>
                             </div>
                         </div>
@@ -193,13 +204,16 @@
                             <div class="single-service">
                                 <span class="count">06</span>
                                 <div class="service-icon">
-                                    <i><img src="{{ asset('assets/img/icons/service-icon-4.png') }}" alt=""></i>
+                                    <i><img src="{{ asset('assets/img/icons/service-icon-4.png') }}"
+                                            alt=""></i>
                                 </div>
                                 <div class="service-content">
                                     <h4>Graphic Designing </h4>
-                                    <p>If you are Looking for a creative & cost-effective graphics Design Agency for all your Graphics Needs? We are here!</p>
-                                    <a href="service-details.html">read more<i><img
-                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}" alt=""></i></a>
+                                    <p>If you are Looking for a creative & cost-effective graphics Design Agency for all
+                                        your Graphics Needs? We are here!</p>
+                                    <a href="{{url('/services')}}">read more<i><img
+                                                src="{{ asset('assets/img/icons/arrow-circle.png') }}"
+                                                alt=""></i></a>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +224,7 @@
     </section>
 
     <section class="about-area sec-mar">
-        <div class="container">
+        <div class="container" data-aos="fade-left">
             <div class="row">
                 <div class="col-lg-6 col-xl-6">
                     <div class="about-left dark">
@@ -266,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="features-count">
+            <div class="features-count" data-aos="fade-right">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="single-count">
@@ -310,7 +324,7 @@
     </section>
 
     <section class="our-partner">
-        <div class="container-fluid g-0 overflow-hidden">
+        <div class="container-fluid g-0 overflow-hidden" data-aos="fade-left">
             <div class="row align-items-center g-0">
                 <div class="col-12 col-xl-6">
                     <div class="newsletter">
@@ -439,7 +453,8 @@
                 <div class="swiper-slide">
                     <div class="single-portfolio">
                         <div class="portfolio-data">
-                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-1.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-1.jpg') }}"
+                                    alt=""></a>
                         </div>
                         <div class="portfolio-inner">
                             <span>Template</span>
@@ -455,7 +470,8 @@
                 <div class="swiper-slide">
                     <div class="single-portfolio">
                         <div class="portfolio-data">
-                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-2.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-2.jpg') }}"
+                                    alt=""></a>
                         </div>
                         <div class="portfolio-inner">
                             <span>UI Kit</span>
@@ -471,7 +487,8 @@
                 <div class="swiper-slide">
                     <div class="single-portfolio">
                         <div class="portfolio-data">
-                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-3.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-3.jpg') }}"
+                                    alt=""></a>
                         </div>
                         <div class="portfolio-inner">
                             <span>Software</span>
@@ -487,7 +504,8 @@
                 <div class="swiper-slide">
                     <div class="single-portfolio">
                         <div class="portfolio-data">
-                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-4.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-4.jpg') }}"
+                                    alt=""></a>
                         </div>
                         <div class="portfolio-inner">
                             <span>Graphic</span>
@@ -503,7 +521,8 @@
                 <div class="swiper-slide">
                     <div class="single-portfolio">
                         <div class="portfolio-data">
-                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-5.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-5.jpg') }}"
+                                    alt=""></a>
                         </div>
                         <div class="portfolio-inner">
                             <span>App</span>
@@ -519,7 +538,8 @@
                 <div class="swiper-slide">
                     <div class="single-portfolio">
                         <div class="portfolio-data">
-                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-3.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('assets/img/portfolio/portfolio-3.jpg') }}"
+                                    alt=""></a>
                         </div>
                         <div class="portfolio-inner">
                             <span>Template</span>
@@ -540,7 +560,7 @@
     </div>
 
 
-    <section class="why-choose-us sec-mar">
+    {{-- <section class="why-choose-us sec-mar">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-6">
@@ -591,7 +611,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <section class="testimonial-area">
@@ -701,7 +721,7 @@
     </section>
 
 
-    <section class="latest-news sec-mar">
+    {{-- <section class="latest-news sec-mar">
         <div class="container">
             <div class="row gx-4">
                 <div class="col-md-6 col-lg-4 col-xl-4">
@@ -771,10 +791,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
-    <section class="lets-talk sec-pad">
+    {{-- <section class="lets-talk sec-pad">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-9 col-lg-8 col-xl-7">
@@ -792,5 +812,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

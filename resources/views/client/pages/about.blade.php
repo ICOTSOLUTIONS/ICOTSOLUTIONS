@@ -262,7 +262,7 @@
     </section>
 
 
-    <section class="why-choose-us sec-mar">
+    {{-- <section class="why-choose-us sec-mar">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-6">
@@ -313,10 +313,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
-    <section class="latest-news sec-mar">
+    {{-- <section class="latest-news sec-mar">
         <div class="container">
             <div class="row gx-4">
                 <div class="col-md-6 col-lg-4 col-xl-4">
@@ -384,10 +384,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
-    <section class="lets-talk sec-pad">
+    {{-- <section class="lets-talk sec-pad">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-9 col-lg-8 col-xl-7">
@@ -405,5 +405,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

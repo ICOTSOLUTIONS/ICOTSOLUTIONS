@@ -13,7 +13,7 @@
                     </div>
                     <ul>
                         <li class="">
-                            <a href="#">Home</a>
+                            <a href="{{url('/')}}">Home</a>
                             {{-- <i class="bi bi-chevron-down"></i> --}}
                             {{-- <ul class="sub-menu">
                                 <li><a href="index-2.html">Home 01</a></li>
@@ -22,15 +22,15 @@
                         </li>
                         <li><a href="{{url('/about')}}">About us</a></li>
                         <li class="has-child">
-                            <a href="{{url('/service')}}">Services</a>
+                            <a href="{{url('/services')}}">Services</a>
                             <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
-                                <li><a href="services.html">Web Development</a></li>
-                                <li><a href="service-details.html">App Development</a></li>
-                                <li><a href="service-details.html">Graphic Design</a></li>
-                                <li><a href="service-details.html">Social Media Marketing</a></li>
-                                <li><a href="service-details.html">Content Writing</a></li>
-                                <li><a href="service-details.html">Domain & Hosting</a></li>
+                                <li><a href="{{url('/services')}}" >Web Development</a></li>
+                                <li><a href="{{url('/services')}}">App Development</a></li>
+                                <li><a href="{{url('/services')}}">Graphic Design</a></li>
+                                <li><a href="{{url('/services')}}">Social Media Marketing</a></li>
+                                <li><a href="{{url('/services')}}">Content Writing</a></li>
+                                <li><a href="{{url('/services')}}">Domain & Hosting</a></li>
                             </ul>
                         </li>
                         <li class="has-child">
