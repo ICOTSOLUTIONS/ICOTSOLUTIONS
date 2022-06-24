@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="title">
-                <h1 class="client">OUR HONOURABLE CLIENTS</h1>
+                <h1 class=" client">OUR HONOURABLE CLIENTS</h1>
             </div>
         </div>
     </div>

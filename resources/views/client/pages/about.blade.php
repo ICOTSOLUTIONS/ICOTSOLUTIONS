@@ -25,7 +25,7 @@
                                 <img src="assets/img/story.png" alt="">
                                 <div class="cto-message-wrapper">
                                     <div class="cto-message">
-                                        <p>Integer purus odio, placerat neclessi rhoncus in, ullamcorper nec dolor.ol aptent
+                                        <p >Integer purus odio, placerat neclessi rhoncus in, ullamcorper nec dolor.ol aptent
                                             taciti sociosqu.</p>
                                         <h4>Carlo Rabil. <span>CTO & FOUNDER, Finibus</span></h4>
                                         <img src="assets/img/cto-signature.png" alt="">
@@ -38,9 +38,9 @@
                         <div class="story-right">
                             <div class="title black">
                                 <span>Inside Story</span>
-                                <h2 class="mb-15">We are creative Agency that creates beautiful.</h2>
+                                <h2 class="mb-15 text-white">We are creative Agency that creates beautiful.</h2>
                             </div>
-                            <p>Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti
+                            <p class="text-white">Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti
                                 sociosqu ad litora torquent per conubia nostra, per inceptosi himenaeos. Praesent nec neque
                                 at dolor venenatis consectetur eu quis e Donec lacinia placerat felis non aliquam.Integer
                                 purus odio.</p>
@@ -67,9 +67,9 @@
                     <div class="about-left">
                         <div class="title black">
                             <span>About us</span>
-                            <h2 class="mb-15">Direction with our company.</h2>
+                            <h2 class="mb-15 text-white">Direction with our company.</h2>
                         </div>
-                        <p>Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti sociosqu
+                        <p class="text-white">Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti sociosqu
                             ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec neque at dolor
                             venenatis consectetur eu quis ei Donec lacinia placerat felis non aliquam.Integer purus odio.
                         </p>
@@ -78,16 +78,16 @@
                                 <i><img src="assets/img/icons/mission-icon.png" alt=""></i>
                             </div>
                             <div class="msn-content">
-                                <h5>Our Mission</h5>
-                                <p>Integer purus odio, placerat nec rhoni olor Class online and video.</p>
+                                <h5 class="text-white">Our Mission</h5>
+                                <p class="text-white">Our WORK SPEAKS MORE THAN OUR WORDS.</p>
                             </div>
                             <div class="cto">
                                 <img src="assets/img/ctoFounder.png" alt="">
                             </div>
                         </div>
-                        <div class="cmn-btn">
+                        {{-- <div class="cmn-btn">
                             <a href="about.html">About more</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-6">

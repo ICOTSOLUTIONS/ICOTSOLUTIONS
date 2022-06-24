@@ -25,7 +25,7 @@
                             <a href="{{url('/services')}}">Services</a>
                             <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
-                                <li><a href="{{url('/services')}}" >Web Development</a></li>
+                                <li><a class="text-white" href="{{url('/services')}}" >Web Development</a></li>
                                 <li><a href="{{url('/services')}}">App Development</a></li>
                                 <li><a href="{{url('/services')}}">Graphic Design</a></li>
                                 <li><a href="{{url('/services')}}">Social Media Marketing</a></li>

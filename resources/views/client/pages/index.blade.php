@@ -43,7 +43,7 @@
                                         <div class="hero-content">
                                             {{-- <h2>Creative</h2> --}}
                                             <h1>OUR MISSION</h1>
-                                            <h3>Our WORK Speaks more than our words</h3>
+                                            <h3>Our WORK SPEAKS MORE THAN OUR WORDS.</h3>
                                             <p>To be our clients' trusted partner, helping them enhance their business
                                                 performance by providing them with innovative, state-of-the-art software
                                                 solutions, automated and integrated workflows and business processes, and
@@ -103,7 +103,7 @@
     </section>
 
     <section class="service-area sec-pad">
-        <div class="container" data-aos="fade-right">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-4 col-xl-4">
                     <div class="title">
@@ -224,7 +224,7 @@
     </section>
 
     <section class="about-area sec-mar">
-        <div class="container" data-aos="fade-left">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-xl-6">
                     <div class="about-left dark">
@@ -280,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="features-count" data-aos="fade-right">
+            <div class="features-count">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="single-count">
@@ -324,7 +324,7 @@
     </section>
 
     <section class="our-partner">
-        <div class="container-fluid g-0 overflow-hidden" data-aos="fade-left">
+        <div class="container-fluid g-0 overflow-hidden" >
             <div class="row align-items-center g-0">
                 <div class="col-12 col-xl-6">
                     <div class="newsletter">

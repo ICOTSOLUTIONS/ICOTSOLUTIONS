@@ -6441,6 +6441,17 @@ only screen and (min-width:1200px) and (max-width:1399px) {
 .webImage .animated {
     opacity: 1;
 }
-.red{
+
+.red {
     color: #d90a2c;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
 }
