@@ -22,12 +22,12 @@
                 <div class="footer-widget">
                     <h4>Our Services</h4>
                     <ul class="footer-menu">
-                        <li><a href="{{url('/services')}}">web designing</a></li>
+                        <li><a href="{{url('/services')}}">web Designing</a></li>
                         <li><a href="{{url('/services')}}">Web Development</a></li>
                         <li><a href="{{url('/services')}}">App Development</a></li>
+                        <li><a href="{{url('/services')}}">Graphic Designing </a></li>
                         <li><a href="{{url('/services')}}">Digital Merketing</a></li>
                         <li><a href="{{url('/services')}}">Cohesive Branding Solutions</a></li>
-                        <li><a href="{{url('/services')}}">Graphic Designing </a></li>
                     </ul>
                 </div>
             </div>

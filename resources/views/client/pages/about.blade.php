@@ -1,21 +1,82 @@
 @extends('client.partial.master')
 @section('content')
-    <section class="breadcrumbs">
-        <div class="container">
+<section class="breadcrumbs">
+    <img src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Nature" class="responsive" width="100%" height="700">
+</section>
+
+    {{-- <section class="about-area sec-mar">
+        <div class="container" >
+            <div class="out-story">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2  class="mb-15 text-center" style="color: #d90a2c; font-size:80px; padding: 40px;">Welcome to
+                            ICOTS</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="story-right" >
+                            <div class="title black">
+
+                                <h2 class="mb-15 text-center" style="color: white;">Services</h2>
+                            </div>
+                            <p class="pa text-center" style="color: white;">Create your Dream with a beautiful and premium
+                                product for multipurpose Bugs free save & Secure Websites with Digital Solutions from Web
+                                Design and Digital Marketing Company in Pakistan.
+                                .</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="story-right">
+                            <div class="title black">
+
+                                <h2 class="mb-15 text-center" style="color: white;">Our Specialization</h2>
+                            </div>
+                            <p class="pa text-center" style="color: white;">We specialize in Web Design & Development, Web
+                                App Development, Android & IOS Applications Design & Development, Digital Marketing,
+                                E-Commerce App Development, Multimedia Solutions, Content Creation, and Graphic Design. We
+                                build Web Solutions, which develop gradually with the updated languages & changing needs of
+                                your business</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumb-wrapper">
-                        <h1>About us</h1>
-                        <span><a href="index-2.html">Home</a><i><img src="assets/img/icons/breadcrumb-arrow.svg"
-                                    alt=""></i>About us</span>
+                <div class="col-md-6 " >
+                    <div class="story-right">
+                        <div class="title black">
+
+                            <h2 class="mb-15 text-center" style="color: white;">We Got You Covered</h2>
+                        </div>
+                        <p class="pa text-center" style="color: white;">TechAbout Professionalism, Skills, and Expertise are
+                            the tools we use to make the professional websites for your business bringing in a maximal
+                            return on your investment in the shortest time. For our very challenging and internet-savvy
+                            customers spread across the globe, we have produced variable complexities on IT projects. We are
+                            developing distinctive internet solutions that guarantee greater effectiveness and competitive
+                            advantage for your company and therefore for your end-users.</p>
+                    </div>
+                </div>
+                <div class="col-md-6  ">
+                    <div class="story-right">
+                        <div class="title black">
+
+                            <h2 class="mb-15 text-center" style="color: white;">Advanced Communication</h2>
+                        </div>
+                        <p class="pa text-center" style="color: white;">ICOTS’s project managers and business analysts set
+                            great value for building a clean and decent communication link with you as they acknowledge it
+                            as the key ingredient for the success of any project.
+                            ICOT’s team members are not only IT professionals but they also have well-developed
+                            communication skills and people skills that work in tandem with your needs. They are known to
+                            take care of every minute detail, and thus what you communicate is taken on board, discussed,
+                            and responded to in a specified period during the building process of your project.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <section class="about-area sec-mar">
+        </div>
+        </div>
+    </section> --}}
+    {{-- <section class="about-area sec-mar">
         <div class="container">
             <div class="out-story">
                 <div class="row">
@@ -37,13 +98,13 @@
                     <div class="col-lg-6 col-xl-6">
                         <div class="story-right">
                             <div class="title black">
-                                <span>Inside Story</span>
-                                <h2 class="mb-15 text-white">We are creative Agency that creates beautiful.</h2>
-                            </div>
-                            <p class="text-white">Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti
-                                sociosqu ad litora torquent per conubia nostra, per inceptosi himenaeos. Praesent nec neque
-                                at dolor venenatis consectetur eu quis e Donec lacinia placerat felis non aliquam.Integer
-                                purus odio.</p>
+                                {{-- <span>Inside Story</span> --}}
+                                {{-- <h2 class="mb-15 text-white">Services</h2> --}}
+                            {{-- </div>
+                            <p class="para text-white">Create your Dream with a beautiful and premium
+                                product for multipurpose Bugs free save & Secure Websites with Digital Solutions from Web
+                                Design and Digital Marketing Company in Pakistan.
+                                .</p>
                             <div class="story-skills">
                                 <div class="story-skill">
                                     <div class="progress-bar-circle" data-percent="90" data-duration="1000"></div>
@@ -61,8 +122,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
+            </div> --}}
+            {{-- <div class="row">
                 <div class="col-lg-6 col-xl-6">
                     <div class="about-left">
                         <div class="title black">
@@ -88,9 +149,9 @@
                         {{-- <div class="cmn-btn">
                             <a href="about.html">About more</a>
                         </div> --}}
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-6">
+                    {{-- </div> --}}
+                {{-- </div> --}}
+                {{-- <div class="col-lg-6 col-xl-6">
                     <div class="about-right">
                         <div class="group-images">
                             <img src="assets/img/about-bottom.jpg" alt="">
@@ -115,13 +176,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="features-count">
+                </div> --}}
+            {{-- </div> --}}
+            {{-- <div class="features-count">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="single-count">
-                            <i><img src="assets/img/icons/count-1.png" alt=""></i>
+                            <i><img src="{{ asset('assets/img/icons/count-1.png') }}" alt=""></i>
                             <div class="counter">
                                 <span class="odometer">150</span><sup>+</sup>
                             </div>
@@ -130,7 +191,7 @@
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="single-count">
-                            <i><img src="assets/img/icons/count-2.png" alt=""></i>
+                            <i><img src="{{ asset('assets/img/icons/count-2.png') }}" alt=""></i>
                             <div class="counter">
                                 <span class="odometer">250</span><sup>+</sup>
                             </div>
@@ -139,7 +200,7 @@
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="single-count">
-                            <i><img src="assets/img/icons/count-3.png" alt=""></i>
+                            <i><img src="{{ asset('assets/img/icons/count-3.png') }}" alt=""></i>
                             <div class="counter">
                                 <span class="odometer">150</span><sup>+</sup>
                             </div>
@@ -147,8 +208,8 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <div class="single-count">
-                            <i><img src="assets/img/icons/count-4.png" alt=""></i>
+                        <div class="single-count xsm">
+                            <i><img src="{{ asset('assets/img/icons/count-4.png') }}" alt=""></i>
                             <div class="counter">
                                 <span class="odometer">28</span><sup>+</sup>
                             </div>
@@ -156,9 +217,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
-    </section>
+    </section> --}}
 
 
     <section class="testimonial-area">

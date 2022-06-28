@@ -22,15 +22,16 @@
                         </li>
                         <li><a href="{{url('/about')}}">About us</a></li>
                         <li class="has-child">
-                            <a href="{{url('/services')}}">Services</a>
+                            <a class="text-white">Services</a>
                             <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
-                                <li><a class="text-white" href="{{url('/services')}}" >Web Development</a></li>
-                                <li><a href="{{url('/services')}}">App Development</a></li>
-                                <li><a href="{{url('/services')}}">Graphic Design</a></li>
-                                <li><a href="{{url('/services')}}">Social Media Marketing</a></li>
-                                <li><a href="{{url('/services')}}">Content Writing</a></li>
-                                <li><a href="{{url('/services')}}">Domain & Hosting</a></li>
+                                <li><a class="text-white" href="{{url('/webDesigning')}}" >Web Designing</a></li>
+                                <li><a class="text-white" href="{{url('/WebDevelopment')}}" >Web Development</a></li>
+                                <li><a href="{{url('/AppDevelopment')}}">App Development</a></li>
+                                <li><a href="{{url('/GraphicDesigning')}}">Graphic Design</a></li>
+                                <li><a href="{{url('/DigitalMarketing')}}">Digital Marketing</a></li>
+                                <li><a href="{{url('/CohesiveBranding')}}">Cohesive Branding Solutions</a></li>
+                                {{-- <li><a href="{{url('/services')}}">Domain & Hosting</a></li> --}}
                             </ul>
                         </li>
                         <li class="has-child">
