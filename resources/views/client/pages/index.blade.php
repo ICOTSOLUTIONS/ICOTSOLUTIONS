@@ -15,7 +15,7 @@
                                         <div class="hero-content">
                                             {{-- <h2>Creative</h2> --}}
                                             <h1>ICOT SOLUTIONS </h1>
-                                            <h3>IQRA COMPUTER ORGANIZATION TECHNOLOGY</h3>
+                                            <h3>IQRA COMgit PUTER ORGANIZATION TECHNOLOGY</h3>
                                             <p>ICOTS is a very responsible team and is always up for a challenge. They put
                                                 heart and passion into everything they do. We look forward to a continuing
                                                 collaboration with the ICOTS's family and wish them all the success.</p>
@@ -43,7 +43,7 @@
                                         <div class="hero-content">
                                             {{-- <h2>Creative</h2> --}}
                                             <h1>OUR MISSION</h1>
-                                            <h3>Our WORK SPEAKS MORE THAN OUR WORDS.</h3>
+                                            <h3>Our WORK Speaks more than our words</h3>
                                             <p>To be our clients' trusted partner, helping them enhance their business
                                                 performance by providing them with innovative, state-of-the-art software
                                                 solutions, automated and integrated workflows and business processes, and
@@ -103,15 +103,15 @@
     </section>
 
     <section class="service-area sec-pad">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="row">
                 <div class="col-md-12 col-lg-4 col-xl-4">
                     <div class="title">
-                        {{-- <span>what we do</span> --}}
-                        <h2>Our WORK SPEAKS MORE THAN OUR WORDS.</h2>
-                        {{-- <div class="cmn-btn">
+                        <span>what we do</span>
+                        <h2>we work performed for client happy.</h2>
+                        <div class="cmn-btn">
                             <a href="{{url('/services')}}">view all services</a>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-8 col-xl-8" >
@@ -124,10 +124,10 @@
                                 </div>
                                 <div class="service-content">
                                     <h4>web designing</h4>
-                                    <p>Grow your digital presence with our human-centered, compelling, and future-proof approach to web design.</p>
-                                    <a href="{{url('/webDesigning')}}">read more<i><img
-                                        src="{{ asset('assets/img/icons/arrow-circle.png') }}"
-                                        alt=""></i></a>
+                                    <p>Grow your digital presence with our human-centered, compelling, and future-proof
+                                        approach to web design.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                     <p>Your website creates a digital experience for your brand, making it an essential
                                         component of your marketing and business strategy.</p>
 
-                                    <a href="{{url('/WebDevelopment')}}">read more<i><img
+                                    <a href="{{url('/services')}}">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}"
                                                 alt=""></i></a>
                                 </div>
@@ -157,7 +157,7 @@
                                 <div class="service-content">
                                     <h4>React Native App Development</h4>
                                     <p>ICOTS uses this conspicuous Hybrid Mobile Application Framework to equip the app with vigorous and quick performance.Hybrid app development is one way for companies to save money and time.</p>
-                                    <a href="{{url('/AppDevelopment')}}">read more<i><img
+                                    <a href="{{url('/services')}}">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}"
                                                 alt=""></i></a>
                                 </div>
@@ -175,7 +175,7 @@
                                     <p>At ICOT SOLUTIONS, we believe your marketing strategy should create unique and
                                         engaging experiences that help connect your brand to people to build customer
                                         loyalty and drive revenue for your business.</p>
-                                    <a href="{{url('/DigitalMarketing')}}">read more<i><img
+                                    <a href="{{url('/services')}}">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}"
                                                 alt=""></i></a>
                                 </div>
@@ -194,7 +194,7 @@
                                         branding strategy includes an initial brand audit to a full-scale branding identity
                                         creating a cohesive story for your business to customers and prospects across all
                                         channels.</p>
-                                    <a href="{{url('/CohesiveBranding')}}">read more<i><img
+                                    <a href="{{url('/services')}}">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}"
                                                 alt=""></i></a>
                                 </div>
@@ -211,7 +211,7 @@
                                     <h4>Graphic Designing </h4>
                                     <p>If you are Looking for a creative & cost-effective graphics Design Agency for all
                                         your Graphics Needs? We are here!</p>
-                                    <a href="{{url('/GraphicDesigning')}}">read more<i><img
+                                    <a href="{{url('/services')}}">read more<i><img
                                                 src="{{ asset('assets/img/icons/arrow-circle.png') }}"
                                                 alt=""></i></a>
                                 </div>
@@ -224,39 +224,33 @@
     </section>
 
     <section class="about-area sec-mar">
-        <div class="container">
+        <div class="container" data-aos="fade-left">
             <div class="row">
                 <div class="col-lg-6 col-xl-6">
                     <div class="about-left dark">
                         <div class="title">
-                            {{-- <span>About us</span> --}}
-                            <h2 class="mb-15">Our Mission</h2>
+                            <span>About us</span>
+                            <h2 class="mb-15">Direction with our company.</h2>
                         </div>
-                        <h3 class="para">Our WORK SPEAKS MORE THAN OUR WORDS.</h3>
-                        <p class="para text-white">To be our clients' trusted partner, helping them enhance their business
-                            performance by providing them with innovative, state-of-the-art software
-                            solutions, automated and integrated workflows and business processes, and
-                            the highest quality of, and quickest turnaround times for IT and IT-enabled
-                            services. We believe that we exist to serve our customers with mutual
-                            respect and care.</p>
+                        <p>Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec
+                            neque at dolor venenatis consectetur eu quis ei Donec lacinia placerat felis non
+                            aliquam.Integer purus odio.</p>
                         <div class="our-mission">
                             <div class="msn-icon">
                                 <i><img src="{{ asset('assets/img/icons/mission-icon.png') }}" alt=""></i>
                             </div>
                             <div class="msn-content">
-                                <h5>OUR VISION</h5>
-                                <h6 class="text-white">Our First Priority is the Satisfaction of our honourable clients.</h6>
-                                <p class="para text-white">To be recognized by our customers, employees, stakeholders, vendors,
-                                    partners, and competitors as the number one Software house and IT-enabled
-                                    services provider in Pakistan.</p>
+                                <h5>Our Mission</h5>
+                                <p>Integer purus odio, placerat nec rhoni olor Class online and video.</p>
                             </div>
-                                {{-- <div class="cto">
-                                    <img src="{{ asset('assets/img/ctoFounder-dark.png') }}" alt="">
-                                </div> --}}
+                            <div class="cto">
+                                <img src="{{ asset('assets/img/ctoFounder-dark.png') }}" alt="">
+                            </div>
                         </div>
-                        {{-- <div class="cmn-btn">
+                        <div class="cmn-btn">
                             <a href="about.html">About more</a>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-6">
@@ -286,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="features-count">
+            <div class="features-count" data-aos="fade-right">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="single-count">
@@ -330,7 +324,7 @@
     </section>
 
     <section class="our-partner">
-        <div class="container-fluid g-0 overflow-hidden" >
+        <div class="container-fluid g-0 overflow-hidden" data-aos="fade-left">
             <div class="row align-items-center g-0">
                 <div class="col-12 col-xl-6">
                     <div class="newsletter">
@@ -353,7 +347,7 @@
                             <div class="col-md-6 col-lg-4 col-xl-6">
                                 <div class="title">
                                     <span>Our partner</span>
-                                    <h2>Join our Icots community.</h2>
+                                    <h2>Join our Finibus community.</h2>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -443,7 +437,7 @@
         </div>
     </section>
 
-    {{-- <div class="portfolio-area sec-mar-top">
+    <div class="portfolio-area sec-mar-top">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 col-xl-5">
@@ -563,7 +557,7 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
         </div>
-    </div> --}}
+    </div>
 
 
     {{-- <section class="why-choose-us sec-mar">
