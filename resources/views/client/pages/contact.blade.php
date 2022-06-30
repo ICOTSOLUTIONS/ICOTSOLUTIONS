@@ -14,14 +14,13 @@
         </div>
     </section>
 
-
     <section class="contact-area sec-mar">
         <div class="container">
             <div class="row">
                 <div class="col col-xl-6">
                     <div class="title black">
-                        <span>Get In Touch</span>
-                        <h2>contact us if you have more questions.</h2>
+                        {{-- <span>Get In Touch</span> --}}
+                        <h2 class="text-white">contact us if you have more questions.</h2>
                     </div>
                 </div>
             </div>
@@ -64,7 +63,7 @@
         </div>
         <div class="contact-information">
             <div class="container">
-                <div class="row">
+                <div class="row c">
                     <div class="col-lg-6 col-xl-6">
                         <div class="contact-form">
                             <h3>Have Any Questions</h3>
@@ -90,11 +89,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-6">
-                        <div class="google-map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.3701967527613!2d90.39056151540181!3d23.734174695311943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c1f25e613d%3A0xaad562eec578f8ff!2sArts%20Faculty%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1644381552436!5m2!1sen!2sbd"
-                                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.8936415110775!2d67.05371441499015!3d24.901609284034528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fc219dfb981%3A0xdc1064dba86c11b2!2sIcots!5e0!3m2!1sen!2s!4v1656518832631!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

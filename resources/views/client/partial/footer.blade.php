@@ -8,13 +8,14 @@
                     </div>
                     <address>
                         <h4>Office</h4>
-                        <p>168/170, Avenue 01, Mirpur DOHS, Bangladesh</p>
+                        <p>Liaquatabad Karachi,Pakistan.</p>
                     </address>
                     <ul class="social-media-icons">
-                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a></li>
-                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/icotsolutions/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/IcotSolutions"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCtvL2HcghShfPJBYsc3w-zQ"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/icot-solutions-a5642a237/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/icotsolutions/?hl=en"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -22,18 +23,18 @@
                 <div class="footer-widget">
                     <h4>Our Services</h4>
                     <ul class="footer-menu">
-                        <li><a href="{{url('/services')}}">web Designing</a></li>
-                        <li><a href="{{url('/services')}}">Web Development</a></li>
-                        <li><a href="{{url('/services')}}">App Development</a></li>
-                        <li><a href="{{url('/services')}}">Graphic Designing </a></li>
-                        <li><a href="{{url('/services')}}">Digital Merketing</a></li>
-                        <li><a href="{{url('/services')}}">Cohesive Branding Solutions</a></li>
+                        <li><a href="{{url('/webDesigning')}}">web Designing</a></li>
+                        <li><a href="{{url('/WebDevelopment')}}">Web Development</a></li>
+                        <li><a href="{{url('/AppDevelopment')}}">App Development</a></li>
+                        <li><a href="{{url('/GraphicDesigning')}}">Graphic Designing </a></li>
+                        <li><a href="{{url('/DigitalMarketing')}}">Digital Merketing</a></li>
+                        <li><a href="{{url('/CohesiveBranding')}}">Cohesive Branding Solutions</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3">
                 <div class="footer-widget">
-                    <h4>Company</h4>
+                    <h4>Our Comapny</h4>
                     <ul class="footer-menu">
                         <li><a href="{{url('/')}}">Home</a></li>
                         <li><a href="{{url('/about')}}">About Us</a></li>
@@ -72,7 +73,7 @@
                         <div class="address-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <p>Pakistan ,Karachi Liaquatabad.</p>
+                        <p>Liaquatabad Karachi,Pakistan.</p>
                     </div>
                 </div>
             </div>

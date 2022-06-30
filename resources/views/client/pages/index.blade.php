@@ -104,17 +104,20 @@
 
     <section class="service-area sec-pad">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-4 col-xl-4">
+            {{-- <div class="row"> --}}
+                {{-- <div class="col-md-12 col-lg-4 col-xl-4">
                     <div class="title">
                         {{-- <span>what we do</span> --}}
-                        <h2>Our WORK SPEAKS MORE THAN OUR WORDS.</h2>
+                        {{-- <h2>Our WORK SPEAKS MORE THAN OUR WORDS.</h2> --}}
                         {{-- <div class="cmn-btn">
                             <a href="{{url('/services')}}">view all services</a>
                         </div> --}}
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-8 col-xl-8" >
+                    {{-- </div> --}}
+                {{-- </div>  --}}
+                <div class="col-md-12 col-lg-12 col-xl-12 title">
+                <h2 class="text-center">OUR WORK SPEAKS MORE THAN OUR WORDS.</h2>
+            </div>
+                <div class="col-md-12 col-lg-12 col-xl-12" >
                     <div class="row g-4">
                         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
                             <div class="single-service">

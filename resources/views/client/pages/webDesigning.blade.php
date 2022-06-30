@@ -1,7 +1,10 @@
 @extends('client.partial.master')
 @section('content')
 <section class="breadcrumbs">
-    <img src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Nature" class="responsive" width="100%" height="700">
+    <div class="col-12">
+
+        <img src="{{ asset('assets/img/hero-slider-2.png') }}" alt="Nature" class="responsive" width="100%" height="700">
+    </div>
 </section>
 <div class="container mt-5">
     <div class="row">
@@ -18,7 +21,7 @@
         </div>
         
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 img d">
-            <img class="w-100" src="{{ asset('assets/img/webDesigning.jpeg') }}" alt="">
+            <img class="w-100" src="{{ asset('assets/img/hero-slider-2.png') }}" alt="">
         </div>
     </div>
 </div>

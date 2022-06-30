@@ -6479,4 +6479,8 @@ only screen and (min-width:1200px) and (max-width:1399px) {
 }
 .pa{
     text-align: justify;
+    align-items: center;
+}
+.U{
+    display: flex;
 }

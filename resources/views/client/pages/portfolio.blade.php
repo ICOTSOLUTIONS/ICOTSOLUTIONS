@@ -1,22 +1,7 @@
 @extends('client.partial.master')
 @section('content')
 <section class="breadcrumbs">
-    <div class="row">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Third slide">
-              </div>
-            </div>
-          </div>
-    </div>
-
+    <img src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Nature" class="responsive" width="100%" height="700">
 </section>
 <section class="service-area sec-pad">
     <div class="container">

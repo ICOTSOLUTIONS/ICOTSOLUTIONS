@@ -4,7 +4,7 @@
     <img src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Nature" class="responsive" width="100%" height="700">
 </section>
 
-    {{-- <section class="about-area sec-mar">
+    <section class="about-area sec-mar">
         <div class="container" >
             <div class="out-story">
                 <div class="row">
@@ -18,7 +18,7 @@
                         <div class="story-right" >
                             <div class="title black">
 
-                                <h2 class="mb-15 text-center" style="color: white;">Services</h2>
+                                <h2 class="mb-15 text-center" style="color: white;">ICOTS's Services</h2>
                             </div>
                             <p class="pa text-center" style="color: white;">Create your Dream with a beautiful and premium
                                 product for multipurpose Bugs free save & Secure Websites with Digital Solutions from Web
@@ -48,7 +48,7 @@
 
                             <h2 class="mb-15 text-center" style="color: white;">We Got You Covered</h2>
                         </div>
-                        <p class="pa text-center" style="color: white;">TechAbout Professionalism, Skills, and Expertise are
+                        <p class="pa text-center" style="color: white;">ICOTS's Professionalism, Skills, and Expertise are
                             the tools we use to make the professional websites for your business bringing in a maximal
                             return on your investment in the shortest time. For our very challenging and internet-savvy
                             customers spread across the globe, we have produced variable complexities on IT projects. We are
@@ -75,7 +75,7 @@
         </div>
         </div>
         </div>
-    </section> --}}
+    </section>
     {{-- <section class="about-area sec-mar">
         <div class="container">
             <div class="out-story">

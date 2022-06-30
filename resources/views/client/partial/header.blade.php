@@ -25,8 +25,8 @@
                             <a class="text-white">Services</a>
                             <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
-                                <li><a class="text-white" href="{{url('/webDesigning')}}" >Web Designing</a></li>
-                                <li><a class="text-white" href="{{url('/WebDevelopment')}}" >Web Development</a></li>
+                                <li><a href="{{url('/webDesigning')}}" >Web Designing</a></li>
+                                <li><a href="{{url('/WebDevelopment')}}" >Web Development</a></li>
                                 <li><a href="{{url('/AppDevelopment')}}">App Development</a></li>
                                 <li><a href="{{url('/GraphicDesigning')}}">Graphic Design</a></li>
                                 <li><a href="{{url('/DigitalMarketing')}}">Digital Marketing</a></li>
