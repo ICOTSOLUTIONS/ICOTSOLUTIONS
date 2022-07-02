@@ -1,6 +1,6 @@
 @extends('client.partial.master')
 @section('content')
-    <section class="breadcrumbs">
+    <section class="breadcrumbs2">
         <div class="container">
             <div class="row">
                 <div class="col-12">

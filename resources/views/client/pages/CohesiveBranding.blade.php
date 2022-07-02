@@ -1,6 +1,6 @@
 @extends('client.partial.master')
 @section('content')
-<section class="breadcrumbs">
+<section class="breadcrumbs2">
     <img src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Nature" class="responsive" width="100%" height="700">
 </section>
 <div class="container mt-5">
