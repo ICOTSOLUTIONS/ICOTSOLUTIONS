@@ -1,12 +1,12 @@
 @extends('client.partial.master')
 @section('content')
-<section class="breadcrumbs">
-    <img src="{{ asset('assets/img/hero-slider-1.jpg') }}" alt="Nature" class="responsive" width="100%" height="700">
+<section class="breadcrumbs2">
+    <img src="{{ asset('assets/img/appdev/01.jpg') }}" alt="Nature" class="responsive" style="opacity: 0.5;" width="100%" height="700">
 </section>
 <div class="container mt-5">
     <div class="row">
+        <h4 class="text-white text-center font mb-5">React Native App Development</h4>
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-white pa">
-            <h4 class="text-white font">React Native App Development</h4>
             <p class="para">ICOTS uses this conspicuous Hybrid Mobile Application Framework to
                 equip the app with vigorous and quick performance.Hybrid app development is one way for companies to
                 save money and time. The professional service has tech-savvy experts who work on your hybrid apps,
@@ -24,8 +24,27 @@
                 potential cost.</p>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 img d">
-            <img class="w-100" src="{{ asset('assets/img/Reactnativeappdevelopment.jpeg') }}" alt="">
+            <img class="w-100 bordertop" src="{{ asset('assets/img/appdev/02.jpg') }}" alt="">
         </div>
     </div>
 </div>
-@endsection 
+<section class="lets-talk sec-pad">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-9 col-lg-8 col-xl-7">
+                <div class="title special">
+                    <span>Let’s Talk</span>
+                    <h2>About Your Next <br /><b>Project</b> Your Mind</h2>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-4 col-xl-5 text-end">
+                <div class="getin-touch">
+                    <div class="cmn-btn">
+                        <a href="{{url('/contact')}}">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@endsection

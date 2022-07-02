@@ -25,25 +25,26 @@
                             <a class="text-white">Services</a>
                             <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
-                                <li><a class="text-white" href="{{url('/webDesigning')}}" >Web Designing</a></li>
-                                <li><a class="text-white" href="{{url('/WebDevelopment')}}" >Web Development</a></li>
+                                <li><a href="{{url('/webDesigning')}}">Web Designing</a></li>
+                                <li><a href="{{url('/WebDevelopment')}}">Web Development</a></li>
                                 <li><a href="{{url('/AppDevelopment')}}">App Development</a></li>
                                 <li><a href="{{url('/GraphicDesigning')}}">Graphic Design</a></li>
                                 <li><a href="{{url('/DigitalMarketing')}}">Digital Marketing</a></li>
-                                <li><a href="{{url('/CohesiveBranding')}}">Cohesive Branding Solutions</a></li>
-                                {{-- <li><a href="{{url('/services')}}">Domain & Hosting</a></li> --}}
-                            </ul>
-                        </li>
-                        <li class="has-child">
-                            <a href="{{url('/portfolio')}}">Portfolio</a>
-                            {{-- <i class="bi bi-chevron-down"></i>
+                                <!-- <li><a href="{{url('/CohesiveBranding')}}">Cohesive Branding Solutions</a></li> -->
+                                {{-- <li><a href="{{url('/services')}}">Domain & Hosting</a>
+                        </li> --}}
+                    </ul>
+                    </li>
+                    <li class="has-child">
+                        <a href="{{url('/portfolio')}}">Portfolio</a>
+                        {{-- <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
                                 <li><a href="project.html">Project</a></li>
                                 <li><a href="project2.html">Project masonry</a></li>
                                 <li><a href="project-details.html">Project Details</a></li>
                             </ul> --}}
-                        </li>
-                        {{-- <li class="has-child">
+                    </li>
+                    {{-- <li class="has-child">
                             <a href="blog.html">Blogs</a>
                             <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
@@ -52,7 +53,7 @@
                                 <li><a href="blog_details.html">Blog Details</a></li>
                             </ul>
                         </li> --}}
-                        {{-- <li class="has-child">
+                    {{-- <li class="has-child">
                             <a href="#">Pages</a>
                             <i class="bi bi-chevron-down"></i>
                             <ul class="sub-menu">
@@ -60,7 +61,7 @@
                                 <li><a href="error.html">Error 404</a></li>
                             </ul>
                         </li> --}}
-                        {{-- <li><a href="contact.html">Contact us</a></li> --}}
+                    {{-- <li><a href="contact.html">Contact us</a></li> --}}
                     </ul>
                     {{-- <div class="get-quate dn">
                         <div class="cmn-btn">
@@ -79,7 +80,7 @@
             <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2 text-end">
                 <div class="get-quate">
                     <div class="cmn-btn">
-                        <a href="{{url('/contact')}}">Contact Us</a>
+                        <a href="{{url('/contact')}}">Get In Touch</a>
                     </div>
                 </div>
             </div>

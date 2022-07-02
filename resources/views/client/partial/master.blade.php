@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"> -->
 
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
 
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -40,11 +41,27 @@
 
     <title>ICOTSOLUTIONS</title>
 </head>
+<style>
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #111215;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%);
+    }
+</style>
 
 <body class="dark">
     <div class="cursor"></div>
     <div class="cursor2"></div>
-
 
     <div class="preloader_area_wrap">
         <div class="sk-cube-grid">
@@ -60,9 +77,11 @@
         </div>
     </div>
 
+    <!-- whatsapp -->
     <a href="https://wa.me/+923360394622" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
+    <!-- end -->
 
     <div class="main">
         @include('client.partial.header')
@@ -103,12 +122,10 @@
 
     <script src="{{ asset('assets/js/custom.js') }}"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-        
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -117,27 +134,28 @@
             duration: 1200,
         });
 
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.ml2');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+        // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml2');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml2 .letter',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 950,
-    delay: (el, i) => 70*i
-  }).add({
-    targets: '.ml2',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-
+        anime.timeline({
+                loop: true
+            })
+            .add({
+                targets: '.ml2 .letter',
+                scale: [4, 1],
+                opacity: [0, 1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: (el, i) => 70 * i
+            }).add({
+                targets: '.ml2',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
     </script>
 </body>
 

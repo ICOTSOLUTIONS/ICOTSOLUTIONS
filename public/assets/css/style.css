@@ -5105,7 +5105,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .contact-form form input[type=submit]:hover {
-    color: #272727;
+    color: whitesmoke;
     background-color: transparent;
     border: 2px solid #d90a2c
 }
@@ -6479,4 +6479,8 @@ only screen and (min-width:1200px) and (max-width:1399px) {
 }
 .pa{
     text-align: justify;
+    align-items: center;
+}
+.U{
+    display: flex;
 }
