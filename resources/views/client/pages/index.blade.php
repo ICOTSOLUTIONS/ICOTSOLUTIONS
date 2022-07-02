@@ -15,7 +15,7 @@
                                     <div class="hero-content">
                                         {{-- <h2>Creative</h2> --}}
                                         <h1>ICOT SOLUTIONS </h1>
-                                        <h3>IQRA COMPUTER ORGANIZATION TECHNOLOGY</h3>
+                                        <h3 class="text-light">IQRA COMPUTER ORGANIZATION TECHNOLOGY</h3>
                                         <p>ICOTS is a very responsible team and is always up for a challenge. They put
                                             heart and passion into everything they do. We look forward to a continuing
                                             collaboration with the ICOTS's family and wish them all the success.</p>
@@ -43,7 +43,7 @@
                                     <div class="hero-content">
                                         {{-- <h2>Creative</h2> --}}
                                         <h1>OUR MISSION</h1>
-                                        <h3>Our WORK SPEAKS MORE THAN OUR WORDS.</h3>
+                                        <h3 class="text-light">Our WORK SPEAKS MORE THAN OUR WORDS.</h3>
                                         <p>To be our clients' trusted partner, helping them enhance their business
                                             performance by providing them with innovative, state-of-the-art software
                                             solutions, automated and integrated workflows and business processes, and
@@ -74,7 +74,7 @@
                                     <div class="hero-content">
                                         {{-- <h2>Creative</h2> --}}
                                         <h1>OUR VISION</h1>
-                                        <h3>Our First Priority is the Satisfaction of our honourable clients</h3>
+                                        <h3 class="text-light">Our First Priority is the Satisfaction of our honourable clients</h3>
                                         <p>To be recognized by our customers, employees, stakeholders, vendors,
                                             partners, and competitors as the number one Software house and IT-enabled
                                             services provider in Pakistan.</p>

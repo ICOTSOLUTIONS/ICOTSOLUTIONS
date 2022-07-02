@@ -49,10 +49,10 @@
                         <i class="bi bi-envelope"></i>
                     </div>
                     <h4 class="text-white">Email</h4>
-                    <a href="https://demo.egenslab.com/cdn-cgi/l/email-protection#f891969e97b89d80999588949dd69b9795"><span class="__cf_email__ text-white" data-cfemail="056c6b636a45607d64687569602b666a68">icotsolutions@gmail.com</span></a>
+                    <a href="https://demo.egenslab.com/cdn-cgi/l/email-protection#f891969e97b89d80999588949dd69b9795"><span class="__cf_email__ text-light" data-cfemail="056c6b636a45607d64687569602b666a68">icotsolutions@gmail.com</span></a>
                     {{-- <a
                             href="https://demo.egenslab.com/cdn-cgi/l/email-protection#92e1e7e2e2fde0e6d2f7eaf3ffe2fef7bcf1fdff"><span
-                                class="__cf_email__"
+                                class="__cf_email__ text-light"
                                 data-cfemail="3d4e484d4d524f497d58455c504d5158135e5250" class="text-white">[email&#160;protected]</span></a> --}}
                 </div>
             </div>
