@@ -37,10 +37,27 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>ICOTSOLUTIONS</title>
 </head>
+<style>
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #111215;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #D90A2C 1.05%, #730000 100%);
+    }
+</style>
 
 <body class="dark">
     <div class="cursor"></div>
@@ -60,9 +77,11 @@
         </div>
     </div>
 
+    <!-- whatsapp -->
     <a href="https://wa.me/+923360394622" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
+    <!-- end -->
 
     <div class="main">
         @include('client.partial.header')
