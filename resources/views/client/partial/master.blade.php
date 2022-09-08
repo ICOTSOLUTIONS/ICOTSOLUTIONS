@@ -63,7 +63,7 @@
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
-    <div class="preloader_area_wrap">
+    {{-- <div class="preloader_area_wrap">
         <div class="sk-cube-grid">
             <div class="sk-cube sk-cube1"></div>
             <div class="sk-cube sk-cube2"></div>
@@ -75,7 +75,7 @@
             <div class="sk-cube sk-cube8"></div>
             <div class="sk-cube sk-cube9"></div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- whatsapp -->
     <a href="https://wa.me/+923360394622" class="float" target="_blank">
