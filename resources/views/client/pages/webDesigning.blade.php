@@ -40,6 +40,9 @@
             font-weight: 500;
             color: #fff;
         }
+        .Web-text1{
+            font-size: 65px;
+        }
 
 </style>
 
@@ -57,10 +60,10 @@
 </section>
 <div class="container mt-5">
     <div class="row">
-        <h4 class="text-white font mb-5">Web Designing</h4>
+        <h4 class="text-white font mb-5 Web-text1">Web Designing</h4>
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-white pat my-3 pt-5">
             <h1>
-                Heading Goes <br> Here
+                Heading Goes Here
             </h1>
             <p class="para mt-2">Grow your digital presence with our human-centered, compelling, and
                 future-proof approach to web design. At ICOT SOLUTIONS, we are not just another web design company.
@@ -73,7 +76,7 @@
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 img d py-5">
-            <img class="bordertop img-fluid " src="{{ asset('assets/img/web-design.jpg') }}" alt="">
+            <img class="bordertop img-fluid " src="{{ asset('assets/img/newwebimg.jpg') }}" alt="">
         </div>
     </div>
 </div>
