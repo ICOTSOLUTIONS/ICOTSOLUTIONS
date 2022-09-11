@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{('assets/img/logo/icotsolutions_favicon.png')}}">
 
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -65,7 +65,8 @@
 
     <div class="preloader_area_wrap">
         <div class="sk-cube-grid">
-            <div class="sk-cube sk-cube1"></div>
+            <img src="{{asset('assets/img/logo/Icot-loader.gif')}}" alt="" srcset="">
+            <!-- <div class="sk-cube sk-cube1"></div>
             <div class="sk-cube sk-cube2"></div>
             <div class="sk-cube sk-cube3"></div>
             <div class="sk-cube sk-cube4"></div>
@@ -73,7 +74,7 @@
             <div class="sk-cube sk-cube6"></div>
             <div class="sk-cube sk-cube7"></div>
             <div class="sk-cube sk-cube8"></div>
-            <div class="sk-cube sk-cube9"></div>
+            <div class="sk-cube sk-cube9"></div> -->
         </div>
     </div>
 

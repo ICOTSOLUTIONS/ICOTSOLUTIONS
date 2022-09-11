@@ -155,9 +155,11 @@ video {
 }
 
 .sk-cube-grid {
-    width: 80px;
-    height: 80px;
-    margin: 100px auto
+    width: 100%;
+    height: auto;
+    /* margin:  auto; */
+    /* justify-content: center; */
+    text-align: center;
 }
 
 .sk-cube-grid .sk-cube {
@@ -549,7 +551,6 @@ only screen and (min-width:768px) and (max-width:991px),
 .logo a img {
     max-width: 136px
 }
-
 .get-quate.dn {
     display: none;
     margin-top: 50px;
