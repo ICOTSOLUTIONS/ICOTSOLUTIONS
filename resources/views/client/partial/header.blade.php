@@ -3,13 +3,13 @@
         <div class="row align-items-center">
             <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-2">
                 <div class="logo">
-                    <a href="#"><img style="filter: invert(100)" src="{{asset('assets/img/logo/icotsolutions-01.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('assets/img/logo/icotsolutions_web.svg')}}" alt=""></a>
                 </div>
             </div>
             <div class="col col-sm-5 col-md-6 col-lg-6 col-xl-8 text-end">
                 <nav class="main-nav">
                     <div class="mobile-menu-logo">
-                        <a href="index-2.html"><img src="{{asset('assets/img/logo/Icotsolutions_web.svg')}}" alt=""></a>
+                        <a href="index-2.html"><img src="{{asset('assets/img/logo/icotsolutions_web.svg')}}" alt=""></a>
                     </div>
                     <ul>
                         <li class="">

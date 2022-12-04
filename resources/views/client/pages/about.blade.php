@@ -292,7 +292,7 @@
                             <a href="about.html">About more</a>
                         </div> --}}
     {{-- </div> --}}
-    {{-- </div> --}}
+    {{-- </div> --}}x
     {{-- <div class="col-lg-6 col-xl-6">
                     <div class="about-right">
                         <div class="group-images">
