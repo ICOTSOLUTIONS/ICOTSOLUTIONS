@@ -4,11 +4,11 @@
             <div class="col-md-3 col-lg-3 col-xl-3">
                 <div class="footer-widget">
                     <div class="footer-logo">
-                        <a href="#"><img src="assets/img/logo/icotsolutions3.png" alt=""></a>
+                        <a href="#"><img src="assets/img/logo/icotsolutions_web.svg" alt=""></a>
                     </div>
                     <address>
                         <h4>Office</h4>
-                        <p>UAE & PAKISTAN.</p>
+                        <p>PAKISTAN.</p>
                     </address>
                     <ul class="social-media-icons">
                         <li><a href="https://www.facebook.com/icotsolutions/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -56,18 +56,18 @@
                             <i class="fas fa-phone-alt"></i>
                         </div>
                         <div class="phone">
-                            <a href="tel:+971562293743">+971 5622 937 43</a>
+                            <a href="tel:+923305069722">+92 330 5069 722</a>
                         </div>
                     </div>
-                    <div class="number">
-                        <div class="num-icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="phone">
-                            <a href="tel:03360394622">+92 336 0394 622</a>
+                    <!--<div class="number">-->
+                    <!--    <div class="num-icon">-->
+                    <!--        <i class="fas fa-phone-alt"></i>-->
+                    <!--    </div>-->
+                    <!--    <div class="phone">-->
+                    <!--        <a href="tel:03360394622">+92 336 0394 622</a>-->
 
-                        </div>
-                    </div>
+                    <!--    </div>-->
+                    <!--</div>-->
                     <div class="office-mail">
                         <div class="mail-icon">
                             <i class="far fa-envelope"></i>
@@ -82,7 +82,8 @@
                         <div class="address-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <p>UAE & PAKISTAN.</p>
+                        <!--<p>UAE & PAKISTAN.</p>-->
+                        <p>PAKISTAN.</p>
                     </div>
                 </div>
             </div>
